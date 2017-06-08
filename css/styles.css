@@ -13,6 +13,10 @@ body {
     margin-bottom: 0;
 }
 
+div{
+    margin-top: 20px;
+}
+
 .toplinks{
 /*  color: #2da1c1;*/
   font-size: 100%;
@@ -21,10 +25,64 @@ body {
   float: right;
 }
 
-img{
-    max-width: 100%;
-    height: auto;
-    width: auto\9; /* ie8 */
+.row1{
+    width: 100%;
+    height: 0;
+    padding-top: 66.64%;
+    background-repeat: no-repeat;
+    background-image: url("images/IMG_9275.jpg");
+    background-size: contain;
+    text-align: center;
+    align-content: center;
+}
+
+.row2{
+    width: 100%;
+    height: 0;
+    padding-top: 46.0%;
+    background-repeat: no-repeat;
+    background-image: url("images/BLOxTRX.jpg");
+    background-size: contain;
+    text-align: center;
+    align-content: center;
+}
+
+.row3{
+    width: 100%;
+    height: 0;
+    padding-top: 56.24%;
+    background-repeat: no-repeat;
+    background-image: url("images/CB.gif");
+    background-size: contain;
+    text-align: center;
+    align-content: center;
+}
+
+a.pos{
+   position: relative;
+   bottom: 200px;
+   font-size: 150px;
+   
+}
+
+a.pos:link {
+    text-decoration: underline;
+    color: white;
+}
+
+a.pos:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a.pos:hover {
+    text-decoration: underline;
+    color: hotpink;
+}
+
+a.pos:active {
+    text-decoration: none;
+    color:white;
 }
 
 a:link {
