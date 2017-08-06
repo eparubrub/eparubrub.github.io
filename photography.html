@@ -1,11 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-			<meta charset="UTF-8">
-			<meta name="description" content="Next page">
+        <meta charset="UTF-8">
+        <meta name="description" content="Next page">
 		<title>Next page</title>
+        <link rel="stylesheet" href="css/styles.css">
 	</head>
-	<body>
-	Photography
+	<body class="photoBody">
+        <div2>
+        <p1 class="head">Emmit Parubrub</p1>
+        <a class="toplinks" href="clothes.html" title="Clothes">Clothes</a>
+        <a class="toplinks" href="photography.html" title="Photography">Photos</a>
+        <a class="toplinks" href="profile.html" title="Profile">Profile</a>
+        <a class="toplinks" href="index.html" title="Home">Home</a>
+        </div2>
+        <div class = "photographs" id="myDiv" onclick = "changeImage(event)">
+            <img height = "720px" style= "border:3px solid grey" src = "css/images/IMG1.jpg" id="mainImage" /> 
+            <br />
+            <img class = "thumbnails" src="css/images/IMG1.jpg" />
+            <img class = "thumbnails" src="css/images/IMG2.jpg" />
+            <img class = "thumbnails" src="css/images/IMG7.jpg" />
+            <img class = "thumbnails" src="css/images/IMG5.jpg" />
+            <img class = "thumbnails" src="css/images/IMG4.jpg" />
+            <img class = "thumbnails" src="css/images/IMG3.png" />
+            <img class = "thumbnails" src="css/images/IMG6.png" />
+            
+        </div>
+        
+        <script type = "text/javascript">
+            var images = document.getElementById("myDiv").getElementsByTagName("img");
+            
+            for (var i = 0; i< images.length; i++){
+                images[i].onmouseover = function(){
+                    this.style.cursor = "hand";
+                    this.style.borderColor = "hotpink";
+                }
+            
+                images[i].onmouseout = function(){
+                    this.style.cursor = "pointer";
+                    this.style.borderColor = "snow";
+                }
+            }
+            
+            
+            function changeImage(event)
+            {
+                event = event || window.event; 
+                
+                var targetElement = event.target || event.srcElement;
+                
+                if(targetElement.tagName == "IMG"){
+                    
+                document.getElementById("mainImage").src = targetElement.getAttribute("src");
+                    
+                }
+            }                           
+        </script>
 	</body>
 </html>

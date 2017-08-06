@@ -2,24 +2,42 @@ body {
     background: snow;
     font-family: 'porter', Arial, sans-serif;
     letter-spacing: 2.5px
+    margin-bottom: 0px;
+}
+.photoBody{
+     width: 100%;
+    height: 0;
+    padding-top: 66.64%;
+    background-repeat: no-repeat;
+    background-image: url("images/Background.jpg");
 }
 .head{
-    font-size: 300%;
+    font-size: 250%;
     font-weight: 600;
     float: left; 
-    text-decoration: none;
-    margin-top: 0;
-    margin-bottom: 0;
+    padding-left: 2px;
+    padding-top: 2px;
 }
 
 div{
     margin-top: 20px;
 }
 
+div2{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: snow;
+    padding-bottom: 6px;
+    left: 4px;
+    
+}
+
 .toplinks{
   font-size: 200%;
   text-decoration: none;
   margin-right: 8px;
+  padding-top: 7px;
   float: right;
 }
 
@@ -101,6 +119,26 @@ a:hover {
 a:active {
     text-decoration: none;
     color:black;
+}
+
+a.dnld{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 7px;
+}
+
+.thumbnails{
+    height: 95px;
+    width: 145px;
+    border: 3px solid snow;
+}
+
+.photographs{
+    position: relative;
+    top: -1100px;
+    padding-left: 400px;
+    
 }
 
 @ font-face{
