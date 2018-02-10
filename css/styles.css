@@ -1,147 +1,47 @@
-body {
-    background: snow;
-    font-family: 'porter', Arial, sans-serif;
-    letter-spacing: 2.5px
-    margin-bottom: 0px;
-}
-.photoBody{
-     width: 100%;
-    height: 0;
-    padding-top: 66.64%;
-    background-repeat: no-repeat;
-    background-image: url("images/Background.jpg");
-}
-.head{
-    font-size: 250%;
-    font-weight: 600;
-    float: left; 
-    padding-left: 2px;
-    padding-top: 2px;
+body, html{
+    background-color: #FDF5E6;
 }
 
-div{
-    margin-top: 20px;
+.my-navbar .navbar-brand{
+    color: #FDF5E6;
 }
 
-div2{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: snow;
-    padding-bottom: 6px;
-    left: 4px;
-    
+
+.btn1{
+    background-color: #353942;
+    border-color: #353942;
+    outline-color: 	#353942;
+    position: relative;
+    bottom: 30px;
 }
 
-.toplinks{
-  font-size: 200%;
-  text-decoration: none;
-  margin-right: 8px;
-  padding-top: 7px;
-  float: right;
+.btn2{
+    background-color: #353942;
+    border-color: #353942;
+    outline-color: 	#353942;
+    position: relative;
+    bottom: 30px;
 }
 
 .row1{
-    width: 100%;
-    height: 0;
-    padding-top: 66.64%;
+    padding-top: 30%;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-image: url("images/IMG_9275.jpg");
-    background-size: contain;
+    image-orientation: center;
     text-align: center;
-    align-content: center;
 }
 
 .row2{
-    width: 100%;
-    height: 0;
-    padding-top: 46.0%;
+    padding-top: 24.7%;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-image: url("images/BLOxTRX.jpg");
-    background-size: contain;
+    image-orientation: center;
     text-align: center;
-    align-content: center;
-}
-
-.row3{
-    width: 100%;
-    height: 0;
-    padding-top: 56.24%;
-    background-repeat: no-repeat;
-    background-image: url("images/CB.gif");
-    background-size: contain;
-    text-align: center;
-    align-content: center;
-}
-
-a.pos{
-   position: relative;
-   bottom: 200px;
-   font-size: 150px;
-   
-}
-
-a.pos:link {
-    text-decoration: underline;
-    color: white;
-}
-
-a.pos:visited {
-    text-decoration: none;
-    color: white;
-}
-
-a.pos:hover {
-    text-decoration: underline;
-    color: hotpink;
-}
-
-a.pos:active {
-    text-decoration: none;
-    color:white;
-}
-
-a:link {
-    text-decoration: none;
-    color: black;
-}
-
-a:visited {
-    text-decoration: none;
-    color: black;
-}
-
-a:hover {
-    text-decoration: none;
-    color: hotpink;
-}
-
-a:active {
-    text-decoration: none;
-    color:black;
-}
-
-a.dnld{
-    text-decoration: none;
-    color: white;
-    background-color: red;
-    padding: 7px;
-}
-
-.thumbnails{
-    height: 95px;
-    width: 145px;
-    border: 3px solid snow;
 }
 
 .photographs{
-    position: relative;
-    top: -1100px;
-    padding-left: 400px;
-    
-}
-
-@ font-face{
-    font-family: 'porter';
-    src: url(porter.ttf)
+    width: 70%; /* for example */
+    margin: auto;
 }
