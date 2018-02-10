@@ -8,6 +8,9 @@ body, html{
 
 
 .btn1{
+    padding:9px 9px;
+    font-size:100%;
+    line-height: 1;
     background-color: #353942;
     border-color: #353942;
     outline-color: 	#353942;
@@ -16,6 +19,9 @@ body, html{
 }
 
 .btn2{
+    padding:9px 9px;
+    font-size:100%;
+    line-height: 1;
     background-color: #353942;
     border-color: #353942;
     outline-color: 	#353942;
