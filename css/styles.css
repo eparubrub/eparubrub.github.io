@@ -63,8 +63,15 @@ body, html{
 }
 
 .photographs{
-    width: 70%; /* for example */
+    width: 70%;
     margin: auto;
+}
+
+.photographstxt1{
+    width: 70%;
+    text-align: center;
+    font-size: 120%;
+    color: #353942;
 }
 
 .contprofile1{
