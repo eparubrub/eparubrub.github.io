@@ -8,7 +8,7 @@ body, html{
 
 
 .btn1{
-    padding:9px 9px;
+    padding:5px 5px;
     font-size:100%;
     line-height: 1;
     background-color: #353942;
@@ -19,7 +19,7 @@ body, html{
 }
 
 .btn2{
-    padding:9px 9px;
+    padding:5px 5px;
     font-size:100%;
     line-height: 1;
     background-color: #353942;
@@ -28,6 +28,21 @@ body, html{
     position: relative;
     bottom: 30px;
 }
+
+.btn3{
+    width: 100%;
+    background-color: #FF0000;
+    border-color: #FF0000;
+    outline-color: 	#FF0000;
+}
+
+.btn4{
+    width: 100%;
+    background-color: #FF0000;
+    border-color: #FF0000;
+    outline-color: 	#FF0000;
+}
+
 
 .row1{
     padding-top: 30%;
@@ -50,4 +65,15 @@ body, html{
 .photographs{
     width: 70%; /* for example */
     margin: auto;
+}
+
+.contprofile1{
+    background-size: 100%;
+    text-align: center;
+}
+
+.profileimg1{
+    display: block;
+    max-width:100%;
+    height:auto
 }

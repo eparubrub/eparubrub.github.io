@@ -1,18 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-        <script src="https://use.fontawesome.com/4f83d4261f.js"></script>
-        <meta charset="UTF-8">
-        <meta name="description" content="Next page">
-        <link rel="stylesheet" href="css/styles.css">
-		<title>Emmit Parubrub</title>
-	</head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Profile</title>
+
+        <!-- bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
 	<body>
-    WORK IN PROGRESS
-	<a href="Resume.pdf" class="dnld" download>Resume PDF</a>
-        <a href="https://www.linkedin.com/in/emmit-parubrub">
-            <i class="fa fa-linkedin-square" aria-hidden="true">LinkedIn</i><span class="sr-only">Battery level: 50%</span>>
-        </a>
+        
+        
+        
+        
+    <nav class="my-navbar navbar navbar-expand-md navbar-dark bg-dark mb-4">
+      <a class="navbar-brand" href="index.html">Emmit Parubrub</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home<span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="profile.html">Profile</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="photography.html">Photos</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+        
+        
+    <div class="container contprofile1">
+        <button onclick="location.href ='Resume.pdf'" type="button" class="btn btn-secondary btn-lg btn3 dnld" download>Resume</button>
+        <br>
+        <img src="css/images/1.jpg" class="profileimg1">
+        <button onclick="location.href ='https://www.linkedin.com/in/emmit-parubrub'" type="button" class="btn btn-secondary btn-lg btn4" aria-hidden="true">LinkedIn</button>
+    </div>
+        
 	</body>
     
 </html>
