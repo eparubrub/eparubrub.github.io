@@ -7,7 +7,7 @@ body, html{
 }
 
 
-.btn1{
+/* .btn1{
     padding:5px 5px;
     font-size:100%;
     line-height: 1;
@@ -27,9 +27,9 @@ body, html{
     outline-color: 	#353942;
     position: relative;
     bottom: 30px;
-}
+} */
 
-.btn3{
+/* .btn3{
     width: 100%;
     background-color: #FF0000;
     border-color: #FF0000;
@@ -41,26 +41,55 @@ body, html{
     background-color: #FF0000;
     border-color: #FF0000;
     outline-color: 	#FF0000;
-}
-
+} */
 
 .row1{
-    padding-top: 30%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-image: url("images/IMG_9275.jpg");
-    image-orientation: center;
-    text-align: center;
+    background-color: #FF0000;
+    height: 700px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
 
 .row2{
+    background-color: green;
+    height: 700px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.profile-img{
+    height: 80%;
+    margin: auto;
+    padding: 40px;
+}
+
+.text-section{
+    margin: auto;
+    padding: 40px;
+    height: 75%;
+    min-width: 450px;
+    width: 40%;
+    color: #353942;
+    font-family: Verdana;
+    background-color: aqua;
+
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+     -ms-animation: fadein 2s; /* Internet Explorer */
+      -o-animation: fadein 2s; /* Opera < 12.1 */
+         animation: fadein 2s;
+}
+
+/* .row2{
     padding-top: 24.7%;
     background-size: 100%;
     background-repeat: no-repeat;
     background-image: url("images/BLOxTRX.jpg");
     image-orientation: center;
     text-align: center;
-}
+} */
 
 .photographs{
     width: 70%;
@@ -90,3 +119,33 @@ body, html{
     font-size: 120%;
     color: #353942;
 }
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+   }
+   
+   /* Firefox < 16 */
+   @-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+   }
+   
+   /* Safari, Chrome and Opera > 12.1 */
+   @-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+   }
+   
+   /* Internet Explorer */
+   @-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+   }
+   
+   /* Opera < 12.1 */
+   @-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+   }
