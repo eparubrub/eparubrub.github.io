@@ -6,61 +6,102 @@ body, html{
     color: #FDF5E6;
 }
 
-
-.btn1{
-    padding:5px 5px;
-    font-size:100%;
-    line-height: 1;
-    background-color: #353942;
-    border-color: #353942;
-    outline-color: 	#353942;
-    position: relative;
-    bottom: 30px;
+.rows{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-.btn2{
-    padding:5px 5px;
-    font-size:100%;
-    line-height: 1;
-    background-color: #353942;
-    border-color: #353942;
-    outline-color: 	#353942;
-    position: relative;
-    bottom: 30px;
-}
 
-.btn3{
-    width: 100%;
-    background-color: #FF0000;
-    border-color: #FF0000;
-    outline-color: 	#FF0000;
-}
-
-.btn4{
-    width: 100%;
-    background-color: #FF0000;
-    border-color: #FF0000;
-    outline-color: 	#FF0000;
-}
-
+/*---------Top Section---------*/
 
 .row1{
-    padding-top: 30%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-image: url("images/IMG_9275.jpg");
-    image-orientation: center;
-    text-align: center;
+    /* background-color: #FF0000; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-bottom: 100px;
 }
 
-.row2{
-    padding-top: 24.7%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-image: url("images/BLOxTRX.jpg");
-    image-orientation: center;
-    text-align: center;
+.top_img{
+    width: 35%;
+    min-width: 450px;
+    max-width: 600px;
+    margin: auto;
+    padding: 40px;
+
+    -webkit-animation: autofadein 3s; 
+    -moz-animation: autofadein 3s; 
+     -ms-animation: autofadein 3s; 
+      -o-animation: autofadein 3s; 
+         animation: autofadein 3s; 
 }
+
+.top-text-section{
+    margin: auto;
+    padding: 40px;
+    height: 600px;
+    min-width: 600px;
+    width: 40%;
+    color: #353942;
+    font-family: Verdana;
+    /* background-color: blue; */
+
+    -webkit-animation: autofadein 3s; 
+    -moz-animation: autofadein 3s;
+     -ms-animation: autofadein 3s;
+      -o-animation: autofadein 3s;
+         animation: autofadein 3s;
+}
+
+
+/*---------Other Sections---------*/
+
+.row2{
+    /* background-color: green; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    /* border-style: dotted; */
+}
+
+.img2{
+    width: 40%;
+    min-width: 450px;
+    max-width: 600px;
+    margin: auto;
+    padding: 40px;
+}
+
+.text-section{
+    margin: auto;
+    padding: 40px;
+    height: 75%;
+    min-width: 650px;
+    width: 40%;
+    color: #353942;
+    font-family: Verdana;
+    /* background-color: aqua; */
+}
+
+.text-section.fadein{
+    opacity: .1;
+}
+
+.img.fadein{
+    opacity: .1;
+}
+
+.img2.fadein{
+    opacity: .1;
+}
+
+
+
+
+
+/* Photo slides */
 
 .photographs{
     width: 70%;
@@ -90,3 +131,39 @@ body, html{
     font-size: 120%;
     color: #353942;
 }
+
+
+
+
+
+
+/* Fade */
+
+@keyframes autofadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+   }
+   
+   /* Firefox < 16 */
+   @-moz-keyframes autofadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+   }
+   
+   /* Safari, Chrome and Opera > 12.1 */
+   @-webkit-keyframes autofadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+   }
+   
+   /* Internet Explorer */
+   @-ms-keyframes autofadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+   }
+   
+   /* Opera < 12.1 */
+   @-o-keyframes autofadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+   }
